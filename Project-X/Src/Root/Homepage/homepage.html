@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Homepage</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Crunked</a>
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="../Products/Products.html">Products</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="action">
+            <div class="searchBx">
+                <a href="#"><i class="bx bx-search"></i></a>
+                <input type="text" placeholder="Search...">
+            </div>
+        </div>
+        <div class="toggleMenu"></div>
+    </header>
+
+    <!-- Home Banner -->
+    <div class="bg">
+        <img src="../../../Assets/Images/Mortal Kombat 1/Mortal Kombat 1 - Banner.png" alt="">
+        <div class="text-banner">
+            <img src="../../../Assets/Images/Mortal Kombat 1/Mortal Kombat 1 - Logo.png" alt="">
+            <p>Starting at $69.99</p>
+            <a href="#">More Details</a>
+        </div>
+    </div>
+
+    <!-- About Us -->
+    <div class="about">
+        <div class="contentBx">
+            <h2>About Us</h2>
+            <p>Founded in 2023, Crunked is a Vietnam company founded by CEO Trinh Hoang Huy. The company is headquartered in Binh Thanh, Ho Chi Minh and has more than 4 offices nationwide.</p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="imgBx">
+            <!-- Images For Promotion -->
+            <div class="about-img fade">
+                <img src="../../../Assets/Images/Call Of Duty - Modern Warfare II/Call Of Duty - Modern Warfare II - PS5.png" alt="">
+            </div>
+            <div class="about-img fade">
+                <img src="../../../Assets/Images/Armored Core VI - Fires Of Rubicon/ Core VI - Fires Of Rubicon\Armored Core VI - Fires Of Rubicon - PS5.png" alt="">
+            </div>
+            <div class="about-img fade">
+                <img src="../../../Assets/Images/God Of War/God Of War - PS4.png" alt="">
+            </div>
+            <div class="about-img fade">
+                <img src="../../../Assets/Images/Grand Theft Auto V/Grand Theft Auto V - PS5.png" alt="">
+            </div>
+            <div class="about-img fade">
+                <img src="../../../Assets/Images/Star Wars Jedi - Fallen Order/Star Wars Jedi - Fallen Order - PS5.png" alt="">
+            </div>
+
+            <!-- Next/Previous Buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- The Dots -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Games -->
+    <div class="games">
+        <h2>Discover</h2>
+        <div class="cardBx">
+            <div class="card" data-item="most-popular">
+                <img src="../../../Assets/Images/Mortal Kombat 1/Mortal Kombat 1 - Premium Edition - PS5.png" alt="">
+                <div class="content">
+                    <h4>Mortal Kombat 1: Premium Edition</h4>
+                    <div class="info">
+                        <p>PS5 - New<br><span>$109.99</span></p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="most-popular">
+                <img src="../../../Assets/Images/Mortal Kombat 1/Mortal Kombat 1 - PS5.png" alt="">
+                <div class="content">
+                    <h4>Mortal Kombat 1</h4>
+                    <div class="info">
+                        <p>PS5 - New<br><span>$69.99</span></p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="most-popular">
+                <img src="../../../Assets/Images/Dead Space/Dead Space - PS5.png" alt="">
+                <div class="content">
+                    <h4>Dead Space</h4>
+                    <div class="info">
+                        <p>PS5 - New<br><span>$59.99</span></p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+            </div>       
+        </div>
+    </div>
+
+    <script src="./homepage.js"></script>
+</body>
+</html>
